@@ -1,5 +1,5 @@
 {
-  "name": "@test/lib2",
+  "name": "lib2",
   "version": "1.0.0",
   "main": "dist/index",
   "files": [
@@ -10,7 +10,7 @@
     "compile": "tsc"
   },
   "peerDependencies": {
-    "@test/lib1": "^1.0.0"
+    "lib1": "^1.0.0"
   },
   "devDependencies": {
     "rimraf": "^3.0.0",

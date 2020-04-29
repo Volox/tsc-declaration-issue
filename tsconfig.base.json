@@ -8,7 +8,9 @@
       "baseUrl": ".",
       "paths": {
         "lib1": ["./packages/lib1/src"],
+        "lib1/*": ["./packages/lib1/src/*"],
         "lib2": ["./packages/lib2/src"],
+        "lib2/*": ["./packages/lib2/src/*"],
       },
       // Compiler options
       "skipLibCheck": true,

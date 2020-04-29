@@ -1,8 +1,8 @@
 import {bar} from 'lib1'
 
-import type {Test} from 'lib1'
+import type {Bar} from 'lib1/foo/bar'
 
-const baz: Test = {
+const baz: Bar = {
     foo: 5
 }
 

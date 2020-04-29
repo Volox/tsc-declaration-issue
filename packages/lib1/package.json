@@ -1,5 +1,5 @@
 {
-  "name": "@test/lib1",
+  "name": "lib1",
   "version": "1.0.0",
   "main": "dist/index",
   "files": [
