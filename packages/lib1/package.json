@@ -1,14 +1,16 @@
 {
-  "name": "lib1",
+  "name": "@test/lib1",
   "version": "1.0.0",
   "main": "dist/index",
   "files": [
     "dist"
   ],
   "scripts": {
+    "clean": "rimraf dist",
     "compile": "tsc"
   },
   "devDependencies": {
-    "typescript": "^3.8.3"
+    "typescript": "^3.8.0",
+    "rimraf": "^3.0.0"
   }
 }

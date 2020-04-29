@@ -1,17 +1,19 @@
 {
-  "name": "lib2",
+  "name": "@test/lib2",
   "version": "1.0.0",
   "main": "dist/index",
   "files": [
     "dist"
   ],
   "scripts": {
+    "clean": "rimraf dist",
     "compile": "tsc"
   },
-  "dependencies": {
-    "lib1": "^1.0.0"
+  "peerDependencies": {
+    "@test/lib1": "^1.0.0"
   },
   "devDependencies": {
-    "typescript": "^3.8.3"
+    "rimraf": "^3.0.0",
+    "typescript": "^3.8.0"
   }
 }
