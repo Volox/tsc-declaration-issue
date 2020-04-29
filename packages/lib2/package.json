@@ -1,0 +1,17 @@
+{
+  "name": "lib2",
+  "version": "1.0.0",
+  "main": "dist/index",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "compile": "tsc"
+  },
+  "dependencies": {
+    "lib1": "^1.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^3.8.3"
+  }
+}
